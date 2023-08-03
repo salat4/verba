@@ -1,0 +1,40 @@
+.section__Team {
+  background-image: url("../../images/backgroundTeam.png");
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 135px;
+}
+.video {
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+  object-position: top;
+}
+.videoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.verbaImage {
+  position: absolute;
+  width: 80%;
+  height: auto;
+}
+.Team__text {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #fff;
+  font-size: 15px;
+  font-family: Jacques Francois;
+}
+.Team__title {
+  text-transform: uppercase;
+  margin-bottom: 67px;
+  margin-top: 58px;
+}

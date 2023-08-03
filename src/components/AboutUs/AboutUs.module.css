@@ -1,0 +1,53 @@
+.aboutUs {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.aboutUs__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.aboutUs__tilte {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 32px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-family: Jacques Francois;
+}
+.aboutUs__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 15px;
+  font-family: Jacques Francois;
+}
+.aboutUs__item:not(:last-child) {
+  margin-bottom: 57px;
+}
+.aboutUs__box {
+  border: 1px solid #fff;
+  padding: 34px;
+  margin-top: 57px;
+}
+.aboutUs__name {
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+.aboutUs__decription__item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.aboutUs__decription__item > p {
+  margin-left: 10px;
+}
+.aboutUs__decription__item:not(:last-child) {
+  margin-bottom: 25px;
+}

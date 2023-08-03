@@ -17,13 +17,10 @@ const Hero = () => {
         </video>
       <div className={s.title}>
         <div className={s.heroText}>
-            {/* <h1>Verba music</h1> */}
+            <h1 className={s.Hero_seo}>Verba music</h1>
             <p className={s.Hero__welcome}>Welcome{' '} to</p>
             <Image
                 src={verba}
-                // width={300}
-                // height={200}
-                // fill
                 layout="responsive"
                 className ={s.verbaImage}
                 alt="Verba MUSIC"
