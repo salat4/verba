@@ -1,0 +1,41 @@
+.footer {
+  background-color: white;
+  padding-top: 70px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -1px;
+}
+.title {
+  text-align: center;
+  color: #000;
+  font-family: Jacques Francois;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.box {
+  border-radius: 25px;
+  border: 1px solid #000;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 120px;
+}
+.svg {
+  width: 32px;
+  height: 32px;
+}
+
+.social {
+  margin-right: 30px;
+  color: #000;
+  font-family: Jacques Francois;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

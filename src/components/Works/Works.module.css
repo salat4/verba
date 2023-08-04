@@ -1,0 +1,31 @@
+.section {
+  /* background-image: url("../../../public/images/backWork.png"); */
+  /* background-size: cover; */
+  /* background-position: center center; */
+  background-color: black;
+  padding-bottom: 135px;
+  /* display: flex; */
+  margin-top: -1px;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  color: white;
+  text-align: center;
+}
+.title:not(:first-child) {
+  margin-top: 90px;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+  flex-direction: column;
+}
+.text {
+  color: white;
+  font-size: 30;
+  margin-top: 30px;
+}

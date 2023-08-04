@@ -1,0 +1,11 @@
+.slider {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+  flex-direction: column;
+}
+.text {
+  color: white;
+  font-size: 30;
+  margin-top: 30px;
+}
