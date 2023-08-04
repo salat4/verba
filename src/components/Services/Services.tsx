@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import microWhite from "/public/images/MicroWhite.png";
-import microBlack from "/public/images/MicroBlack.png";
-import musicWhite from "/public/images/MusicWhite.png";
-import musicBlack from "/public/images/MusicBlack.png";
-import mixWhite from "/public/images/MixWhite.png";
-import mixBlack from "/public/images/MixBlack.png";
-import pulseWhite from "/public/images/PulseWhite.png";
-import pulseBlack from "/public/images/PulseBlack.png";
+import microWhite from "public/images/MicroWhite.png";
+import microBlack from "public/images/MicroBlack.png";
+import musicWhite from "public/images/MusicWhite.png";
+import musicBlack from "public/images/MusicBlack.png";
+import mixWhite from "public/images/MixWhite.png";
+import mixBlack from "public/images/MixBlack.png";
+import pulseWhite from "public/images/PulseWhite.png";
+import pulseBlack from "public/images/PulseBlack.png";
 import s from "./Services.module.css";
 
 interface HandleItem {
