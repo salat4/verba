@@ -4,16 +4,14 @@ import s from "./AboutUs.module.css";
 import Mobile from "../Svg/Mobile";
 import Email from "../Svg/Email";
 import Music from "../Svg/Music";
-import face from "../../images/face.png";
+import face from "/public/images/face.png";
 function AboutUs() {
-  const svgLoader = ({ src }) => `${src}`;
-
   return (
     <section className={s.aboutUs}>
       <h2 className={s.aboutUs__tilte}>About Us</h2>
       <ul className={s.aboutUs__list}>
         <li className={s.aboutUs__item}>
-          <Image layout="responsive" alt="face" src={face} />
+          <Image width={240} height={200} alt="face" src={face} />
           <div className={s.aboutUs__box}>
             <p className={s.aboutUs__name}>Mykyta</p>
             <ul className={s.aboutUs__description}>
@@ -33,7 +31,7 @@ function AboutUs() {
           </div>
         </li>
         <li className={s.aboutUs__item}>
-          <Image layout="responsive" alt="face" src={face} />
+          <Image width={240} height={200} alt="face" src={face} />
           <div className={s.aboutUs__box}>
             <p className={s.aboutUs__name}>Mykyta</p>
             <ul className={s.aboutUs__description}>
@@ -53,7 +51,7 @@ function AboutUs() {
           </div>
         </li>
         <li className={s.aboutUs__item}>
-          <Image layout="responsive" alt="face" src={face} />
+          <Image width={240} height={200} alt="face" src={face} />
           <div className={s.aboutUs__box}>
             <p className={s.aboutUs__name}>Mykyta</p>
             <ul className={s.aboutUs__description}>
@@ -73,7 +71,7 @@ function AboutUs() {
           </div>
         </li>
         <li className={s.aboutUs__item}>
-          <Image layout="responsive" alt="face" src={face} />
+          <Image width={240} height={200} alt="face" src={face} />
           <div className={s.aboutUs__box}>
             <p className={s.aboutUs__name}>Mykyta</p>
             <ul className={s.aboutUs__description}>

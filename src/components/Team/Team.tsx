@@ -1,18 +1,18 @@
 import Image from "next/image";
 import React from "react";
 import s from "./Team.module.css";
-import image from "../../images/Team.jpg";
+import image from "/public/images/Team.jpg";
 const Team = () => {
   return (
     <section className={`${s.section__Team}`}>
       <div>
         <div className={s.videoContainer}>
-          <video className={s.video} playsInline autoPlay loop muted>
+          {/* <video className={s.video} playsInline autoPlay loop muted>
             <source
-              src={require("../../Video/TeamLiquid.mp4")}
+              src={require("/public/Video/TeamLiquid.mp4")}
               type="video/mp4"
             />
-          </video>
+          </video> */}
           <Image src={image} className={s.verbaImage} alt="Verba MUSIC" />
         </div>
         <div className={s.Team__text}>

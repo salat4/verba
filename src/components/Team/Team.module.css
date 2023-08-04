@@ -1,8 +1,10 @@
 .section__Team {
-  background-image: url("../../images/backgroundTeam.png");
-  background-size: cover;
-  background-position: center center;
+  /* background-image: url("../../../public/images/backgroundTeam.png"); */
+  /* background-size: cover; */
+  /* background-position: center center; */
+  background-color: black;
   padding-bottom: 135px;
+  margin-top: -1px;
 }
 .video {
   width: 100vw;
