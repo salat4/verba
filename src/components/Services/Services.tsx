@@ -17,7 +17,7 @@ interface HandleItem {
   micro?: boolean;
   text: string[];
 }
-
+console.log("zxc");
 const Services: React.FC = () => {
   const [handle, setHandle] = useState<HandleItem[]>([
     { music: false, text: ["zxczxc", "zxczxczasd", "asdwqeqds"] },
